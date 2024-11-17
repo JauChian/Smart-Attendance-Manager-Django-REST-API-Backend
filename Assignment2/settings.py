@@ -48,7 +48,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',  # Add this line
     ],
     'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.IsAuthenticated'],
-    #'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.AllowAny'],
+    # 'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.AllowAny'],
 }
 
 MIDDLEWARE = [
@@ -92,10 +92,14 @@ DATABASES = {
         'NAME': 'verceldb',
         'USER': 'default',
         'PASSWORD': 'AM9iGOXghRl2',
-        'HOST': 'ep-misty-wildflower-a7p2xjzz.ap-southeast-2.aws.neon.tech',
+        'HOST': 'ep-dawn-pond-a4fuj0wl.us-east-1.aws.neon.tech',
         'PORT': '5432',
+        'OPTIONS': {
+            'sslmode': 'require',  # 添加此行以强制使用 SSL
+        }
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
