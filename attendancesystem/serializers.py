@@ -156,8 +156,7 @@ class LecturerSerializer(serializers.ModelSerializer):
 
         # 檢查是否存在相同的 username，避免重複
         if User.objects.filter(username=username).exists():
-            raise serializers.ValidationError(
-                {"username": "Username already exists. Please use a unique combination."})
+            raise serializers.ValidationError({"username": "Username already exists. Please use a unique combination."})
 
         # 創建 User 對象，並將密碼設置為 DOB
         password = dob.strftime('%Y-%m-%d')  # 將日期轉為字符串格式，例如 '1980-01-01'
@@ -212,7 +211,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ['id', 'username', 'first_name', 'last_name', 'email', 'password', 'user_group']
+        fields = ['id', 'username', 'first_name', 'last_name', 'email', 'password', 'user_group','is_superuser']
 
         extra_kwargs = {
             'password': {

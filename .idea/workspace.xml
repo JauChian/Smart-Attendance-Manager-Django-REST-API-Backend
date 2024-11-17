@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c239fc9c-a5c7-4a90-88c0-7ba5a7878309" name="Changes" comment="" />
+    <list default="true" id="c239fc9c-a5c7-4a90-88c0-7ba5a7878309" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendancesystem/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/attendancesystem/serializers.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
     "Django Server.Assignment2.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/Assignment1",
+    "last_opened_file_path": "C:/Users/User/PycharmProjects/Assignment2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +50,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\Assignment2" />
       <recent name="C:\Users\User\PycharmProjects\Assignment2\attendancesystem" />
     </key>
   </component>
@@ -96,6 +100,7 @@
       <workItem from="1731557477186" duration="26175000" />
       <workItem from="1731626157842" duration="20191000" />
       <workItem from="1731670532106" duration="33585000" />
+      <workItem from="1731809700652" duration="5868000" />
     </task>
     <servers />
   </component>
