@@ -16,7 +16,7 @@ class IsAdminOrReadOnly(permissions.BasePermission):
 
     def has_permission(self, request, view):
         # 如果用户是管理员，允许所有操作
-        if request.user.is_authenticated and request.user.groups.filter(name='admin').exists():
+        if request.user.groups.filter(name='admin').exists():
             return True
 
         # 允许所有其他用户进行只读操作

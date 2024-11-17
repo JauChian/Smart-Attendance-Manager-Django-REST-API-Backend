@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c239fc9c-a5c7-4a90-88c0-7ba5a7878309" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attendancesystem/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/attendancesystem/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendancesystem/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/attendancesystem/permissions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,7 @@
       <workItem from="1731557477186" duration="26175000" />
       <workItem from="1731626157842" duration="20191000" />
       <workItem from="1731670532106" duration="33585000" />
-      <workItem from="1731809700652" duration="5868000" />
+      <workItem from="1731809700652" duration="9368000" />
     </task>
     <servers />
   </component>
