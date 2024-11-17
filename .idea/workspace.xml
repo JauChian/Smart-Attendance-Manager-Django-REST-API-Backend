@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -92,7 +95,7 @@
       <updated>1731557475783</updated>
       <workItem from="1731557477186" duration="26175000" />
       <workItem from="1731626157842" duration="20191000" />
-      <workItem from="1731670532106" duration="32201000" />
+      <workItem from="1731670532106" duration="33585000" />
     </task>
     <servers />
   </component>
