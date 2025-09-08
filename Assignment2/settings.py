@@ -91,11 +91,13 @@ WSGI_APPLICATION = "Assignment2.wsgi.app"
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+db_url = os.environ.get("DATABASE_URL") or os.environ.get("POSTGRES_URL")
+
 DATABASES = {
-    "default": dj_database_url.parse(
-        os.environ.get("DATABASE_URL", ""),
+    "default": dj_database_url.config(
+        default=db_url or f"sqlite:///{BASE_DIR / 'db.sqlite3'}",
         conn_max_age=600,
-        ssl_require=True,  
+        ssl_require=True
     )
 }
 # 若想在本機無設定 DATABASE_URL 時回退到 sqlite，可加上：
