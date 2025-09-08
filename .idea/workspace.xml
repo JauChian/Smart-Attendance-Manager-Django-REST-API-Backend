@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c239fc9c-a5c7-4a90-88c0-7ba5a7878309" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attendancesystem/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/attendancesystem/permissions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Django Server.Assignment2.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/Assignment2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Django Server.Assignment2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/PycharmProjects/Assignment2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\PycharmProjects\Assignment2" />
@@ -100,7 +99,16 @@
       <workItem from="1731557477186" duration="26175000" />
       <workItem from="1731626157842" duration="20191000" />
       <workItem from="1731670532106" duration="33585000" />
-      <workItem from="1731809700652" duration="9368000" />
+      <workItem from="1731809700652" duration="10333000" />
+      <workItem from="1731832036717" duration="18000" />
+      <workItem from="1743147677262" duration="1516000" />
+      <workItem from="1743328395793" duration="715000" />
+      <workItem from="1743381076598" duration="633000" />
+      <workItem from="1743381880695" duration="57000" />
+      <workItem from="1743381964771" duration="1178000" />
+      <workItem from="1743637606787" duration="289000" />
+      <workItem from="1743732071181" duration="127000" />
+      <workItem from="1743732266779" duration="134000" />
     </task>
     <servers />
   </component>
